@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4625299C1E2F127F00F03E7B /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625299B1E2F127F00F03E7B /* EditViewController.swift */; };
+		462529A01E2F1ED300F03E7B /* CoreDataSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625299F1E2F1ED300F03E7B /* CoreDataSupport.swift */; };
 		46EEA3261E2B5BE400DBD770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEA3251E2B5BE400DBD770 /* AppDelegate.swift */; };
 		46EEA3281E2B5BE400DBD770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEA3271E2B5BE400DBD770 /* ViewController.swift */; };
 		46EEA32B1E2B5BE400DBD770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EEA3291E2B5BE400DBD770 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4625299B1E2F127F00F03E7B /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		4625299F1E2F1ED300F03E7B /* CoreDataSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataSupport.swift; sourceTree = "<group>"; };
 		46EEA3221E2B5BE400DBD770 /* CoreDataSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EEA3251E2B5BE400DBD770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46EEA3271E2B5BE400DBD770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				46EEA3311E2B5BE400DBD770 /* Info.plist */,
 				46EEA3371E2B5C8D00DBD770 /* DiaryModel.xcdatamodeld */,
 				4625299B1E2F127F00F03E7B /* EditViewController.swift */,
+				4625299F1E2F1ED300F03E7B /* CoreDataSupport.swift */,
 			);
 			path = CoreDataSample;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				46EEA3441E2B616E00DBD770 /* TYDiary+CoreDataClass.swift in Sources */,
 				46EEA3281E2B5BE400DBD770 /* ViewController.swift in Sources */,
 				4625299C1E2F127F00F03E7B /* EditViewController.swift in Sources */,
+				462529A01E2F1ED300F03E7B /* CoreDataSupport.swift in Sources */,
 				46EEA3261E2B5BE400DBD770 /* AppDelegate.swift in Sources */,
 				46EEA3391E2B5C8D00DBD770 /* DiaryModel.xcdatamodeld in Sources */,
 				46EEA3451E2B616E00DBD770 /* TYDiary+CoreDataProperties.swift in Sources */,

@@ -75,6 +75,5 @@ class EditViewController: UIViewController {
         }
         // 保存が終わったら画面を閉じる
         dismiss(animated: true, completion: nil)
-
     }
 }
